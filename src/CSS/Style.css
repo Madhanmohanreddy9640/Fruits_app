@@ -1,0 +1,406 @@
+/* body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background: linear-gradient(45deg, #ff6f61, #ffcc29);
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background 0.3s;
+}
+.navbar:hover {
+    background: linear-gradient(45deg, #ffcc29, #ff6f61);
+}
+.navbar .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: transform 0.3s;
+}
+.navbar .logo img:hover {
+    transform: rotate(360deg);
+}
+.logo h1 {
+    font-size: 1.0rem;
+    color: white;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.3s, color 0.3s;
+}
+.navbar a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    color: #ff6f61;
+}
+.navbar .nav-links {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .navbar .nav-links {
+        justify-content: center;
+    }
+    .navbar a {
+        padding: 10px;
+    }
+} */
+.navbar {
+    background: linear-gradient(45deg, #ff6f61, #ffcc29);
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background 0.3s;
+}
+.navbar:hover {
+    background: linear-gradient(45deg, #ffcc29, #ff6f61);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.navbar .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: transform 0.3s;
+}
+.navbar .logo img:hover {
+    transform: rotate(360deg);
+}
+
+/* .logo img {
+    height: 50px;
+    margin-right: 10px;
+} */
+
+.logo h1 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.navbar .nav-links {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+     
+}
+
+.nav-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #007BFF;
+}
+
+.nav-links a svg {
+    margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links a {
+        justify-content: center;
+    }
+}
+
+
+/* -----------------------------------------------------------------Ads css----------------------------------------------------------------------- */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.ads-slider {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    height:60vh;
+}
+.ad-slide {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: left 0.5s ease-in-out;
+    opacity: 0;
+}
+.ad-slide.active {
+    left: 0;
+    opacity: 1;
+    transition: left 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+.ad-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.ad-content h3 {
+    margin: 0 0 10px;
+}
+.ad-content p {
+    margin: 0;
+}
+@media (max-width: 768px) {
+    .ads-slider {
+        height: 200px;
+    }
+    .ad-content {
+        bottom: 10px;
+        left: 10px;
+        padding: 8px 15px;
+    }
+    .ad-content h3 {
+        font-size: 16px;
+    }
+    .ad-content p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 480px) {
+    .ads-slider {
+        height: 150px;
+    }
+    .ad-content {
+        bottom: 5px;
+        left: 5px;
+        padding: 5px 10px;
+    }
+    .ad-content h3 {
+        font-size: 14px;
+    }
+    .ad-content p {
+        font-size: 12px;
+    }
+}
+/* ----------------------------------------------------------------------Video css------------------------------------------------------------------- */
+/* .video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  iframe {
+    width: 100%;
+    height: auto;
+    border: none;
+  }
+  
+  @media (max-width: 1200px) {
+    .video-container {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .video-container {
+      border-radius: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .video-container {
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  } */
+  
+/* -----------------------------------------------------------------------Shopping css------------------------------------------------------------ */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+.seasonal-fruits {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+.seasonal-fruits h1 {
+    color: #ff6f61;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+.fruits-carousel {
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.fruit-card {
+    min-width: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+.fruit-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.fruit-card h2 {
+    color: #ff6f61;
+    margin: 10px 0;
+}
+.fruit-card p {
+    color: #333;
+    margin: 10px 0;
+}
+.fruit-card button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.fruit-card button:hover {
+    background-color: #ffcc29;
+}
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 20px;
+    z-index: 1;
+    user-select: none;
+}
+.left-arrow {
+    left: 10px;
+}
+.right-arrow {
+    right: 10px;
+}
+@media (max-width: 768px) {
+    .fruit-card {
+        width: 80%;
+    }
+}
+@media (max-width: 480px) {
+    .fruit-card img {
+        width: 80px;
+        height: 80px;
+    }
+    .fruit-card button {
+        padding: 8px 16px;
+    }
+}
+/* -----------------------------------------------------------------About css------------------------------------------------------------------------- */
+
+.about-page {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.about-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.about-page p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    font-size: 2rem;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007BFF;
+}
+ /* ---------------------------------------------------------------copyright css-------------------------------------------------------------- */
+ .copyright-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-top: 2px solid #ddd;
+}
+
+.copyright-section p {
+    font-size: 1rem;
+    color: #333;
+    margin: 5px 0;
+}
+
+.copyright-section p:first-child {
+    font-weight: bold;
+}
+
+.copyright-section p:last-child {
+    color: #007BFF;
+    font-style: italic;
+}
+
