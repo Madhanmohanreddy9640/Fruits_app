@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Fruits_app/static/css/main.79543297.css",
+    "main.js": "/Fruits_app/static/js/main.231dc33d.js",
+    "static/js/488.afc4b625.chunk.js": "/Fruits_app/static/js/488.afc4b625.chunk.js",
+    "static/media/mango.webp": "/Fruits_app/static/media/mango.6a84f8300b4b548375a0.webp",
+    "static/media/treeorange2.jpg": "/Fruits_app/static/media/treeorange2.3c45bb86baa1a3c290d0.jpg",
+    "static/media/treefruits.jpg": "/Fruits_app/static/media/treefruits.b43058364c7dd6300809.jpg",
+    "static/media/watermelon.webp": "/Fruits_app/static/media/watermelon.9d4d4d32a6a5db4421e6.webp",
+    "static/media/grapes.webp": "/Fruits_app/static/media/grapes.5b87dec109dec906bf1a.webp",
+    "static/media/tamarind.webp": "/Fruits_app/static/media/tamarind.df3fdb27b08aceceacc8.webp",
+    "static/media/fig.webp": "/Fruits_app/static/media/fig.ddb160b0b6721c5a4c65.webp",
+    "static/media/custardapple.webp": "/Fruits_app/static/media/custardapple.d05b90777797e5847fd6.webp",
+    "static/media/blueberries.webp": "/Fruits_app/static/media/blueberries.2265c2e39ff9980f3611.webp",
+    "static/media/pineapple.webp": "/Fruits_app/static/media/pineapple.5dc126bc882402ca9863.webp",
+    "static/media/lychee.webp": "/Fruits_app/static/media/lychee.e48e89912bb575ad62b9.webp",
+    "static/media/jackfruit.jpg": "/Fruits_app/static/media/jackfruit.34c5b050af64fcec6f32.jpg",
+    "static/media/sapota.webp": "/Fruits_app/static/media/sapota.14db8a129bfdd176596b.webp",
+    "static/media/papaya.webp": "/Fruits_app/static/media/papaya.7c1607a72bc01ee7666c.webp",
+    "static/media/orange.webp": "/Fruits_app/static/media/orange.926397b9483f2ca1c2a7.webp",
+    "static/media/mulberry.jpg": "/Fruits_app/static/media/mulberry.7e6ae02b56a3ba19d0c7.jpg",
+    "static/media/guava.webp": "/Fruits_app/static/media/guava.303d066b688edda0c271.webp",
+    "static/media/strawberries.webp": "/Fruits_app/static/media/strawberries.8075d7c82b0d7a8ad350.webp",
+    "static/media/banana.webp": "/Fruits_app/static/media/banana.c6fe0c50becdc647b8b5.webp",
+    "static/media/apple.webp": "/Fruits_app/static/media/apple.47068d536ef5c409e2df.webp",
+    "index.html": "/Fruits_app/index.html",
+    "main.79543297.css.map": "/Fruits_app/static/css/main.79543297.css.map",
+    "main.231dc33d.js.map": "/Fruits_app/static/js/main.231dc33d.js.map",
+    "488.afc4b625.chunk.js.map": "/Fruits_app/static/js/488.afc4b625.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79543297.css",
+    "static/js/main.231dc33d.js"
+  ]
+}
