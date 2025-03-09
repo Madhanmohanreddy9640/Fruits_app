@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/Fruits_app/static/css/main.79543297.css",
-    "main.js": "/Fruits_app/static/js/main.231dc33d.js",
+    "main.css": "/Fruits_app/static/css/main.27db8a28.css",
+    "main.js": "/Fruits_app/static/js/main.50c9bffe.js",
     "static/js/488.afc4b625.chunk.js": "/Fruits_app/static/js/488.afc4b625.chunk.js",
     "static/media/mango.webp": "/Fruits_app/static/media/mango.6a84f8300b4b548375a0.webp",
+    "static/media/fa-solid-900.ttf": "/Fruits_app/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/treeorange2.jpg": "/Fruits_app/static/media/treeorange2.3c45bb86baa1a3c290d0.jpg",
     "static/media/treefruits.jpg": "/Fruits_app/static/media/treefruits.b43058364c7dd6300809.jpg",
+    "static/media/fa-brands-400.ttf": "/Fruits_app/static/media/fa-brands-400.1815e00441357e01619e.ttf",
     "static/media/watermelon.webp": "/Fruits_app/static/media/watermelon.9d4d4d32a6a5db4421e6.webp",
+    "static/media/fa-solid-900.woff2": "/Fruits_app/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
     "static/media/grapes.webp": "/Fruits_app/static/media/grapes.5b87dec109dec906bf1a.webp",
     "static/media/tamarind.webp": "/Fruits_app/static/media/tamarind.df3fdb27b08aceceacc8.webp",
+    "static/media/fa-brands-400.woff2": "/Fruits_app/static/media/fa-brands-400.c210719e60948b211a12.woff2",
     "static/media/fig.webp": "/Fruits_app/static/media/fig.ddb160b0b6721c5a4c65.webp",
     "static/media/custardapple.webp": "/Fruits_app/static/media/custardapple.d05b90777797e5847fd6.webp",
+    "static/media/fa-regular-400.ttf": "/Fruits_app/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
     "static/media/blueberries.webp": "/Fruits_app/static/media/blueberries.2265c2e39ff9980f3611.webp",
     "static/media/pineapple.webp": "/Fruits_app/static/media/pineapple.5dc126bc882402ca9863.webp",
     "static/media/lychee.webp": "/Fruits_app/static/media/lychee.e48e89912bb575ad62b9.webp",
@@ -21,15 +26,18 @@
     "static/media/mulberry.jpg": "/Fruits_app/static/media/mulberry.7e6ae02b56a3ba19d0c7.jpg",
     "static/media/guava.webp": "/Fruits_app/static/media/guava.303d066b688edda0c271.webp",
     "static/media/strawberries.webp": "/Fruits_app/static/media/strawberries.8075d7c82b0d7a8ad350.webp",
+    "static/media/fa-regular-400.woff2": "/Fruits_app/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Fruits_app/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/banana.webp": "/Fruits_app/static/media/banana.c6fe0c50becdc647b8b5.webp",
     "static/media/apple.webp": "/Fruits_app/static/media/apple.47068d536ef5c409e2df.webp",
+    "static/media/fa-v4compatibility.woff2": "/Fruits_app/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/Fruits_app/index.html",
-    "main.79543297.css.map": "/Fruits_app/static/css/main.79543297.css.map",
-    "main.231dc33d.js.map": "/Fruits_app/static/js/main.231dc33d.js.map",
+    "main.27db8a28.css.map": "/Fruits_app/static/css/main.27db8a28.css.map",
+    "main.50c9bffe.js.map": "/Fruits_app/static/js/main.50c9bffe.js.map",
     "488.afc4b625.chunk.js.map": "/Fruits_app/static/js/488.afc4b625.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79543297.css",
-    "static/js/main.231dc33d.js"
+    "static/css/main.27db8a28.css",
+    "static/js/main.50c9bffe.js"
   ]
 }
