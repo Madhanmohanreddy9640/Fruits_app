@@ -4,15 +4,15 @@ import Ads from './Componets/Ads'
 import Shopping from './Componets/Shopping'
 import About from './Componets/About'
 import Copyright from './Componets/Copyright'
-// import Video from './Componets/Video'
+import Search from './Componets/Search'
 import './CSS/Style.css'
 
 function App() {
   return (
     <div>
       <Index/>
+      <Search/>
       <Ads/>
-      {/* <Video /> */}
       <Shopping />
       <About/>
       <Copyright/>
